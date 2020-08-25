@@ -6,7 +6,8 @@
   "version": "0.2.0",
   "author": "LekoArts <hello@lekoarts.de>",
   "license": "MIT",
-  "starter-name": "gatsby-starter-portfolio-cara",
+  "postinstall": "npm run build",
+  "starter-name": "gatsby",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
